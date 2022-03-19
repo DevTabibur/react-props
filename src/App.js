@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Card from "./Card";
+import './Card.css';
 
 function App() {
   return (
-    <>
+    <div className="card__container">
       <Card
         imgSrc="https://i.pinimg.com/564x/bd/9b/e9/bd9be9cfc97ba73c66f51e927f2bfcc5.jpg"
         title="DARK"
@@ -25,7 +26,7 @@ function App() {
         category="A Netflix Original Series"
         href="https://www.netflix.com/bd/title/80057281"
       />
-    </>
+    </div>
   );
 }
 
