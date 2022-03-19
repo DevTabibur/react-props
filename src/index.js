@@ -25,14 +25,27 @@ function Card(props){
   )
 }
 
-ReactDOM.render( <>
+ReactDOM.render( 
+<>
   <Card imgSrc="https://i.pinimg.com/564x/bd/9b/e9/bd9be9cfc97ba73c66f51e927f2bfcc5.jpg"
     title="DARK"
     category="A Netflix Original Series"
     href=""
   />
-  <Card imgSrc=""/>
-  <Card imgSrc=""/>
+
+  <Card imgSrc="https://i.pinimg.com/564x/bd/9b/e9/bd9be9cfc97ba73c66f51e927f2bfcc5.jpg"
+    title="DARK"
+    category="A Netflix Original Series"
+    href=""
+  />
+  
+  <Card imgSrc="https://i.pinimg.com/564x/bd/9b/e9/bd9be9cfc97ba73c66f51e927f2bfcc5.jpg"
+    title="DARK"
+    category="A Netflix Original Series"
+    href=""
+  />
+
+
 </> ,
 document.getElementById('root')
 );
